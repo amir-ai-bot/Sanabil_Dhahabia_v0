@@ -1,0 +1,87 @@
+2026-03-24 20:19:31 Started download_images.php start=1 end=50 force=0 dry_run=0
+2026-03-24 20:19:34 Retry 1/3 after 1s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:35 Retry 2/3 after 2s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:37 Product 1: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:37 Retry 1/3 after 1s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=80 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:39 Retry 2/3 after 2s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=80 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:41 Product 2: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:41 Retry 1/3 after 1s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=80&fm=jpg - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:43 Retry 2/3 after 2s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=80&fm=jpg - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:45 Product 3: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:45 Retry 1/3 after 1s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=80&flip=h - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:46 Retry 2/3 after 2s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=80&flip=h - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:49 Product 4: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:49 Retry 1/3 after 1s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=85 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:50 Retry 2/3 after 2s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=85 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:52 Product 5: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:52 Retry 1/3 after 1s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=80&auto=format - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:54 Retry 2/3 after 2s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=80&auto=format - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:56 Product 6: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:56 Retry 1/3 after 1s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=75 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:19:57 Retry 2/3 after 2s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=75 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:00 Product 7: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:00 Retry 1/3 after 1s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=80&brightness=1.1 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:01 Retry 2/3 after 2s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=80&brightness=1.1 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:03 Product 8: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:03 Retry 1/3 after 1s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=80&brightness=1.1 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:05 Retry 2/3 after 2s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=80&brightness=1.1 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:07 Product 9: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:07 Retry 1/3 after 1s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=80&contrast=1.2 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:08 Retry 2/3 after 2s: https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&h=400&fit=crop&q=80&contrast=1.2 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:11 Product 10: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:11 Retry 1/3 after 1s: https://images.unsplash.com/photo-1600126613408-eca07ce68773?w=600&h=400&fit=crop - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:12 Retry 2/3 after 2s: https://images.unsplash.com/photo-1600126613408-eca07ce68773?w=600&h=400&fit=crop - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:14 Product 11: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:14 Retry 1/3 after 1s: https://images.unsplash.com/photo-1600126613408-eca07ce68773?w=600&h=400&fit=crop&q=80 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:16 Retry 2/3 after 2s: https://images.unsplash.com/photo-1600126613408-eca07ce68773?w=600&h=400&fit=crop&q=80 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:18 Product 12: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:18 Retry 1/3 after 1s: https://images.unsplash.com/photo-1600126613408-eca07ce68773?w=600&h=400&fit=crop&q=80&fm=jpg - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:19 Retry 2/3 after 2s: https://images.unsplash.com/photo-1600126613408-eca07ce68773?w=600&h=400&fit=crop&q=80&fm=jpg - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:22 Product 13: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:22 Retry 1/3 after 1s: https://images.unsplash.com/photo-1600126613408-eca07ce68773?w=600&h=400&fit=crop&q=80&flip=h - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:23 Retry 2/3 after 2s: https://images.unsplash.com/photo-1600126613408-eca07ce68773?w=600&h=400&fit=crop&q=80&flip=h - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:25 Product 14: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:25 Retry 1/3 after 1s: https://images.unsplash.com/photo-1600126613408-eca07ce68773?w=600&h=400&fit=crop&q=85 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:27 Retry 2/3 after 2s: https://images.unsplash.com/photo-1600126613408-eca07ce68773?w=600&h=400&fit=crop&q=85 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:29 Product 15: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:29 Retry 1/3 after 1s: https://images.unsplash.com/photo-1600126613408-eca07ce68773?w=600&h=400&fit=crop&q=80&auto=format - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:30 Retry 2/3 after 2s: https://images.unsplash.com/photo-1600126613408-eca07ce68773?w=600&h=400&fit=crop&q=80&auto=format - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:33 Product 16: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:33 Retry 1/3 after 1s: https://images.unsplash.com/photo-1600126613408-eca07ce68773?w=600&h=400&fit=crop&q=75 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:34 Retry 2/3 after 2s: https://images.unsplash.com/photo-1600126613408-eca07ce68773?w=600&h=400&fit=crop&q=75 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:36 Product 17: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:37 Retry 1/3 after 1s: https://images.unsplash.com/photo-1600126613408-eca07ce68773?w=600&h=400&fit=crop&q=80&brightness=1.1 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:38 Retry 2/3 after 2s: https://images.unsplash.com/photo-1600126613408-eca07ce68773?w=600&h=400&fit=crop&q=80&brightness=1.1 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:40 Product 18: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:40 Retry 1/3 after 1s: https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:41 Retry 2/3 after 2s: https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:44 Product 19: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:44 Retry 1/3 after 1s: https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop&q=80 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:45 Retry 2/3 after 2s: https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop&q=80 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:47 Product 20: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:48 Retry 1/3 after 1s: https://images.unsplash.com/photo-1574323447407-f5e1ad6d020b?w=600&h=400&fit=crop - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:49 Retry 2/3 after 2s: https://images.unsplash.com/photo-1574323447407-f5e1ad6d020b?w=600&h=400&fit=crop - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:51 Product 21: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:51 Retry 1/3 after 1s: https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop&q=80&fm=jpg - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:53 Retry 2/3 after 2s: https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop&q=80&fm=jpg - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:55 Product 22: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:55 Retry 1/3 after 1s: https://images.unsplash.com/photo-1574323447407-f5e1ad6d020b?w=600&h=400&fit=crop&q=80 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:56 Retry 2/3 after 2s: https://images.unsplash.com/photo-1574323447407-f5e1ad6d020b?w=600&h=400&fit=crop&q=80 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:58 Product 23: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:20:59 Retry 1/3 after 1s: https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop&q=85 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:21:00 Retry 2/3 after 2s: https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop&q=85 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:21:02 Product 24: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:21:02 Retry 1/3 after 1s: https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop&q=80&auto=format - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:21:04 Retry 2/3 after 2s: https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop&q=80&auto=format - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:21:06 Product 25: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:21:06 Retry 1/3 after 1s: https://images.unsplash.com/photo-1574323447407-f5e1ad6d020b?w=600&h=400&fit=crop&q=75 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:21:07 Retry 2/3 after 2s: https://images.unsplash.com/photo-1574323447407-f5e1ad6d020b?w=600&h=400&fit=crop&q=75 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:21:10 Product 26: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:21:10 Retry 1/3 after 1s: https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop&q=80&brightness=1.1 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:21:11 Retry 2/3 after 2s: https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop&q=80&brightness=1.1 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:21:13 Product 27: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:21:13 Retry 1/3 after 1s: https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop&q=80&contrast=1.2 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:21:15 Retry 2/3 after 2s: https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop&q=80&contrast=1.2 - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:21:17 Product 28: download failed - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:21:17 Retry 1/3 after 1s: https://images.unsplash.com/photo-1574323447407-f5e1ad6d020b?w=600&h=400&fit=crop&q=80&flip=h - SSL certificate problem: unable to get local issuer certificate
+2026-03-24 20:21:18 Retry 2/3 after 2s: https://images.unsplash.com/photo-1574323447407-f5e1ad6d020b?w=600&h=400&fit=crop&q=80&flip=h - SSL certificate problem: unable to get local issuer certificate
