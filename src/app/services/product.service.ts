@@ -13,11 +13,24 @@ export class ProductService {
   constructor(private api: ApiService, private imageService: ImageService) {}
 
   getCategories(): Observable<Category[]> {
-    return this.api.getCategories().pipe(map((res: any) => res.data || []));
+    return this.api.getCategories().pipe(
+      map((res: any) => res.data || []),
+      catchError(() => {
+        console.log('API not available, using mock categories');
+        return of(this.getMockCategories());
+      })
+    );
   }
 
   getProducts(): Observable<Product[]> {
-    return this.api.getAllProducts().pipe(map((res: any) => res.data || []));
+    return this.api.getAllProducts().pipe(
+      map((res: any) => res.data || []),
+      catchError(() => {
+        // Return mock data when API fails
+        console.log('API not available, using mock products');
+        return of(this.getMockProducts());
+      })
+    );
   }
 
   getProductById(id: number): Observable<Product | undefined> {
@@ -95,5 +108,65 @@ export class ProductService {
       const q = query.toLowerCase();
       return p.name.toLowerCase().includes(q) || p.description.toLowerCase().includes(q);
     })));
+  }
+
+  private getMockProducts(): Product[] {
+    return [
+      {
+        id: 1,
+        name: 'Tracteur John Deere 5100',
+        description: 'Tracteur puissant 100 ch avec cabine climatisée et direction hydraulique',
+        price: 85000.0,
+        stock: 5,
+        image: '/images/products/tractor1.jpg',
+        categoryId: 1
+      },
+      {
+        id: 2,
+        name: 'Tracteur KUBOTA L3200',
+        description: 'Tracteur compact 32 ch, parfait pour petites exploitations',
+        price: 28000.0,
+        stock: 8,
+        image: '/images/products/tractor2.jpg',
+        categoryId: 1
+      },
+      {
+        id: 3,
+        name: 'Moissonneuse CLAAS Lexion 650',
+        description: 'Moissonneuse batteuse ultra-moderne avec capteurs',
+        price: 185000.0,
+        stock: 2,
+        image: '/images/products/harvester1.jpg',
+        categoryId: 2
+      },
+      {
+        id: 4,
+        name: 'Charrue 4 socs réversible',
+        description: 'Charrue réversible de qualité pour tous types de sols',
+        price: 8500.0,
+        stock: 12,
+        image: '/images/products/plow1.jpg',
+        categoryId: 3
+      },
+      {
+        id: 5,
+        name: 'Pelle à grain métallique',
+        description: 'Pelle à grain robuste en acier inoxydable',
+        price: 450.0,
+        stock: 80,
+        image: '/images/products/shovel1.jpg',
+        categoryId: 4
+      }
+    ];
+  }
+
+  private getMockCategories(): Category[] {
+    return [
+      { id: 1, name: 'Tracteurs', description: 'Tracteurs agricoles de toutes puissances' },
+      { id: 2, name: 'Moissonneuses', description: 'Moissonneuses et batteuses' },
+      { id: 3, name: 'Équipements de Labour', description: 'Outils pour le travail du sol' },
+      { id: 4, name: 'Outils Agricoles', description: 'Outils manuels et accessoires' },
+      { id: 5, name: 'Accessoires et Pièces', description: 'Pièces détachées et accessoires' }
+    ];
   }
 }

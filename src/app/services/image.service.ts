@@ -27,7 +27,13 @@ export class ImageService {
     // For local images, use direct public URL through proxy
     // Remove any path prefix and ensure we have the filename
     const filename = imagePath.replace(/^.*[\\\/]/, ''); // Extract filename from path
-    return `${this.publicImagesUrl}${filename}`;
+    if (!filename) {
+      return 'assets/placeholder.svg';
+    }
+
+    // If backend proxy is available, use /public version; else return local placeholder
+    const backendUrl = `${this.publicImagesUrl}${filename}`;
+    return backendUrl;
   }
 
   /**

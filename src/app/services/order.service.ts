@@ -10,6 +10,10 @@ import { ApiService } from './api.service';
   providedIn: 'root'
 })
 export class OrderService {
+  private orders: Order[] = [];
+  private orderItems: OrderItem[] = [];
+  private orderCounter: number = 1;
+
   constructor(
     private productService: ProductService,
     private api: ApiService

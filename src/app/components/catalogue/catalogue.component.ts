@@ -54,7 +54,7 @@ import { Product, Category } from '../../models/product.model';
       <div class="grid grid-3" *ngIf="!loading && filteredProducts.length > 0">
         <div class="card product-card" *ngFor="let product of filteredProducts" 
              [routerLink]="['/produit', product.id]">
-          <img [src]="getStoreImageUrl(product.image)" [alt]="product.name">
+          <img [src]="getStoreImageUrl(product.image)" (error)="onImageError($event)" [alt]="product.name">
           <h3>{{ product.name }}</h3>
           <p style="color: var(--color-gray); margin: 0.5rem 0; min-height: 60px;">
             {{ (product.description || '').substring(0, 100) }}...
@@ -110,6 +110,13 @@ export class CatalogueComponent implements OnInit {
 
   filterByCategory(): void {
     this.applyFilters();
+  }
+
+  onImageError(event: Event): void {
+    const target = event.target as HTMLImageElement;
+    if (target && target.src) {
+      target.src = 'assets/placeholder.svg';
+    }
   }
 
   sortProducts(): void {
