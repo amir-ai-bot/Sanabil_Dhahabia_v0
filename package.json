@@ -1,7 +1,7 @@
 {
   "name": "sanabel-dhahabia",
   "version": "1.0.0",
-  "description": "Application de vente de matériel agricole - SANABEL DHAHABIA",
+  "description": "Agricultural equipment e-commerce application with Angular and PHP",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

@@ -1,42 +1,75 @@
-# 🌾 SANABEL DHAHABIA - Application de Vente de Matériel Agricole
+# Sanabel Dhahabia
 
-Application e-commerce complète pour la vente de matériel agricole avec interface en français et thème Or & Vert.
+Sanabel Dhahabia is an agricultural equipment e-commerce application. It includes an Angular frontend, a PHP backend, product and category management, shopping cart flow, orders, customer account pages, and an administrator area.
 
-## Fonctionnalités
+The repository demonstrates full-stack application work across Angular, TypeScript, PHP, MySQL, routing, guards, CRUD screens, and local media handling.
 
-### Pages Publiques
-- Page d'accueil avec bannière, présentation, catégories et témoignages
-- Catalogue de produits avec filtrage et recherche
-- Page de détail produit
+## Features
 
-### Système d'Achat
-- Panier avec gestion des quantités
-- Processus de commande avec formulaire de livraison
-- Confirmation de commande
+- Public home page and product catalogue
+- Product detail pages
+- Shopping cart and checkout flow
+- Customer authentication and order history
+- Admin dashboard
+- Product, category, and order management
+- Local PHP API backend
+- MySQL database scripts and setup documentation
+- Product image upload and management utilities
 
-### Espace Client
-- Authentification (connexion, inscription)
-- Tableau de bord avec historique des commandes
-- Suivi du statut des commandes
+## Tech Stack
 
-### Espace Administrateur
-- Tableau de bord avec statistiques et graphiques
-- Gestion des produits (CRUD)
-- Gestion des commandes et statuts
-- Gestion des catégories
+- Angular
+- TypeScript
+- PHP
+- MySQL
+- HTML/CSS
 
-## Installation
+## Project Structure
+
+```text
+Sanabil_Dhahabia_v0/
+|-- src/              # Angular frontend
+|-- backend/          # PHP API and MySQL scripts
+|-- angular.json
+|-- package.json
+`-- README.md
+```
+
+## Run The Frontend
 
 ```bash
 npm install
 npm start
 ```
 
-L'application sera accessible sur `http://localhost:4200`
+The Angular app runs at:
 
-## Technologies
+```text
+http://localhost:4200
+```
 
-- Angular 17
-- TypeScript
-- CSS personnalisé (thème Or & Vert)
+## Run The Backend
 
+```bash
+npm run backend
+```
+
+or with XAMPP PHP on Windows:
+
+```bash
+npm run backend:xampp
+```
+
+The PHP backend runs at:
+
+```text
+http://localhost:8080
+```
+
+## Database
+
+Create a MySQL database and import the backend SQL files documented under `backend/`.
+
+## Notes
+
+This project is useful as a full-stack portfolio item. The main technical signals are Angular routing and guards, CRUD workflows, PHP API endpoints, MySQL integration, and practical admin/customer flows.

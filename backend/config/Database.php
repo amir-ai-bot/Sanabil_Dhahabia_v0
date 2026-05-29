@@ -1,11 +1,18 @@
 <?php
-// Configuration de la base de données
+
 class Database {
-    private $host = 'localhost';
-    private $db_name = 'sanabel_dhahabia';
-    private $user = 'root';
-    private $password = '';
+    private $host;
+    private $db_name;
+    private $user;
+    private $password;
     private $connection;
+
+    public function __construct() {
+        $this->host = getenv('DB_HOST') ?: 'localhost';
+        $this->db_name = getenv('DB_NAME') ?: 'sanabel_dhahabia';
+        $this->user = getenv('DB_USER') ?: 'root';
+        $this->password = getenv('DB_PASSWORD') ?: '';
+    }
 
     public function connect() {
         try {
@@ -18,9 +25,10 @@ class Database {
             $this->connection->exec("SET NAMES utf8mb4");
             return $this->connection;
         } catch (PDOException $e) {
-            echo 'Erreur de connexion: ' . $e->getMessage();
+            error_log('Database connection failed: ' . $e->getMessage());
             return null;
         }
     }
 }
+
 ?>
