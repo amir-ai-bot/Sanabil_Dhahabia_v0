@@ -1,5 +1,7 @@
 # Sanabel Dhahabia
 
+[![CI](https://github.com/amir-ai-bot/Sanabil_Dhahabia_v0/actions/workflows/ci.yml/badge.svg)](https://github.com/amir-ai-bot/Sanabil_Dhahabia_v0/actions/workflows/ci.yml)
+
 Sanabel Dhahabia is an agricultural equipment e-commerce application. It includes an Angular frontend, a PHP backend, product and category management, shopping cart flow, orders, customer account pages, and an administrator area.
 
 The repository demonstrates full-stack application work across Angular, TypeScript, PHP, MySQL, routing, guards, CRUD screens, and local media handling.
